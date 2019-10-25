@@ -34,34 +34,16 @@
   
             // 在这里设置你使用的平台的 OAuth App 配置
             options: {
-              owner: 'OWNER_OF_REPO',
-              repo: 'NAME_OF_REPO',
-              clientId: 'YOUR_CLIENT_ID',
-              clientSecret: 'YOUR_CLIENT_SECRET', // 只有在使用某些平台时需要
+                owner: 'yxy-123',
+            repo: 'vsud',
+            clientId: '3649b3af576d88f38c4f',
+            clientSecret: 'dc5809104490d3da9c7a5cda2050921865a29f1e', // 只有在使用某些平台时需要
             },
           }
         })
       })
     </script>
   
-    <!-- 或：对于 Vue 完整版，可以使用模板（template） -->
-    <script>
-      new Vue({
-        el: '#vssue',
-  
-        data: {
-          title: 'Vssue Dev',
-  
-          options: {
-            owner: 'OWNER_OF_REPO',
-            repo: 'NAME_OF_REPO',
-            clientId: 'YOUR_CLIENT_ID',
-            clientSecret: 'YOUR_CLIENT_SECRET', // 只有在使用某些平台时需要
-          },
-        },
-  
-        template: `<vssue :title="title" :options="options"></vssue>`,
-      })
-    </script>
+   
     <!--vue end-->
   </body>
